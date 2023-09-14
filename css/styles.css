@@ -156,30 +156,30 @@ footer {
 /*CSS PARA LA SECCION MOVILES*/
 
 .tel {
-    background-image: url(../img/imagen-seccion-moviles.jpg);
+    background-color: #c0189b;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.tel h1 {
-    background-color: #c5c0c0;
+.tel h2 {
+    color: white;
     text-align: center;
 }
 
 /*CSS PARA LA SECCION ACCESORIOS*/
 
 .imagenaccesorios {
-    background-image: url(../img/fondo-rojo.jpg);
+    background-color: #c0189b;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 30vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -187,21 +187,41 @@ footer {
     align-items: center;
 }
 .imagenaccesorios h2 {
-background-color: #c5c0c0;
-color: #232323;
+
+color: white;
 }
 
 .electro {
-    background-image: url(../img/iconos-colores-diferentes-tipos-electrodomesticos_1284-44063.avif);
+    background-color: #c0189b;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 70vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.electro h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.contac {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contac h2 {
+    color: white;
+    font-weight: bold;
 }
 
 /*CSS BOOTSTRAP MENU */
