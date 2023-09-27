@@ -1,0 +1,40 @@
+.celulares {
+    background-color: antiquewhite;
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.celulares img {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.celulares p {
+    margin: 10px;
+}
+.celulares button{
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.padre-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.descuentos{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background-color: green;
+}

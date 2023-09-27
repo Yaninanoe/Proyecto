@@ -1,0 +1,89 @@
+
+.tel {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tel h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+.imagenaccesorios {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenaccesorios h2 {
+
+color: white;
+}
+
+.electro {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.electro h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.contac {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contac h1 {
+    color: white;
+    font-weight: bold;
+    gap: 5px;
+}
+.contacto {
+    background-color: antiquewhite;
+    color: #250c6c;
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+.formulario {
+    margin: 0 auto;
+    padding: 5px;
+}
+.formulario h3 {
+    color: white;
+    font-weight: bold;
+}

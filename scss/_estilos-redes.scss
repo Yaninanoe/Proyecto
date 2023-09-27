@@ -1,0 +1,14 @@
+/*WHATSAPP*/
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 20%;
+    right: 30px;
+}
+.iconoredessociales{
+    width: 40px;
+}
