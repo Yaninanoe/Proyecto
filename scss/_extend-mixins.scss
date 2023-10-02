@@ -1,0 +1,42 @@
+.caja {
+    background-color: #c0189b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+}
+.marcas {
+    @include flex;
+    gap: 10px;
+}
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+.marcas {
+    @include sizes (350px, 150px);
+}
+/*ANIMACIONES*/
+.bienvenidos h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

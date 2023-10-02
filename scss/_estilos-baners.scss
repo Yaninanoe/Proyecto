@@ -1,34 +1,16 @@
 
 .tel {
-    background-color: #c0189b;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .caja;
 }
-.tel h2 {
+.tel h1 {
     color: white;
     text-align: center;
 }
 
 
-
+/*EXTEND EN BANERS*/
 .imagenaccesorios {
-    background-color: #c0189b;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .caja;
 }
 .imagenaccesorios h2 {
 
@@ -36,54 +18,43 @@ color: white;
 }
 
 .electro {
-    background-color: #c0189b;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .caja;
 }
-.electro h2 {
+.electro h1 {
     color: white;
     font-weight: bold;
 }
 
 .contac {
-    background-color: #c0189b;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend .caja;
 }
 .contac h1 {
     color: white;
     font-weight: bold;
-    gap: 5px;
 }
 .contacto {
     background-color: antiquewhite;
     color: #250c6c;
-    width: 75vh;
+    width: 50%;
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 5px;
     font-weight: bold;
+    margin-left: 40px;
 }
-.formulario {
-    margin: 0 auto;
-    padding: 5px;
-}
+
 .formulario h3 {
+    text-align: left;
     color: white;
     font-weight: bold;
+    margin-left: 50px;
+}
+.mapa {
+    display: flex;
+    width: 300px;
+    margin-left: 30px;
+}
+.accordion {
+    width: 90%;
 }

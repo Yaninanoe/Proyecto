@@ -9,9 +9,20 @@
 }
 
 .celulares img {
-    width: 350px;
+    width: 300px;
     display: block;
     margin: 0 auto;
+    transition: width 1s;
+    &:hover {
+        width: 350px;
+    }
+}
+.celulares img {
+    transition: width 1s;
+    &:hover {
+        width: 350px;
+    }
+
 }
 .celulares p {
     margin: 10px;

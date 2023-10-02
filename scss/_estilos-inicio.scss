@@ -22,6 +22,7 @@ h2 {text-align: center;
 
 body {
     font-family: 'Montserrat', sans-serif;
+    
     background-color: #c5c0c0;
 }
 header {
@@ -45,7 +46,7 @@ header img {
 .enlaces {
     
     background-color: #c5c0c0;
-    padding: 5px 10px;
+    
     border-radius: 15px;
 
 }
@@ -68,6 +69,10 @@ section {
 
 section {
     margin: 30px;
+}
+
+.carrito {
+    cursor: pointer;
 }
 
 footer {
@@ -95,6 +100,7 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+
 h2 {
     font-weight: bold;
 }

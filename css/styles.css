@@ -1,94 +1,49 @@
-.tel {
-  background-color: #c0189b;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.tel h2 {
+.tel h1 {
   color: white;
   text-align: center;
 }
 
-.imagenaccesorios {
-  background-color: #c0189b;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+/*EXTEND EN BANERS*/
 .imagenaccesorios h2 {
   color: white;
 }
 
-.electro {
-  background-color: #c0189b;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.electro h2 {
+.electro h1 {
   color: white;
   font-weight: bold;
-}
-
-.contac {
-  background-color: #c0189b;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .contac h1 {
   color: white;
   font-weight: bold;
-  gap: 5px;
 }
 
 .contacto {
   background-color: antiquewhite;
   color: #250c6c;
-  width: 75vh;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
   font-weight: bold;
-}
-
-.formulario {
-  margin: 0 auto;
-  padding: 5px;
+  margin-left: 40px;
 }
 
 .formulario h3 {
+  text-align: left;
   color: white;
   font-weight: bold;
+  margin-left: 50px;
+}
+
+.mapa {
+  display: flex;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.accordion {
+  width: 90%;
 }
 
 .carousel-item img {
@@ -142,9 +97,20 @@
 }
 
 .celulares img {
-  width: 350px;
+  width: 300px;
   display: block;
   margin: 0 auto;
+  transition: width 1s;
+}
+.celulares img:hover {
+  width: 350px;
+}
+
+.celulares img {
+  transition: width 1s;
+}
+.celulares img:hover {
+  width: 350px;
 }
 
 .celulares p {
@@ -223,7 +189,6 @@ header img {
 
 .enlaces {
   background-color: #c5c0c0;
-  padding: 5px 10px;
   border-radius: 15px;
 }
 
@@ -241,6 +206,10 @@ section {
 
 section {
   margin: 30px;
+}
+
+.carrito {
+  cursor: pointer;
 }
 
 footer {
@@ -282,6 +251,46 @@ h2 {
 
 .nav-link {
   color: white;
+}
+
+.caja, .tel, .imagenaccesorios, .electro, .contac {
+  background-color: #c0189b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marcas {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.marcas {
+  width: 350px;
+  height: 150px;
+}
+
+/*ANIMACIONES*/
+.bienvenidos h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
