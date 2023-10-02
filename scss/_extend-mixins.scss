@@ -18,14 +18,16 @@
 .marcas {
     @include flex;
     gap: 10px;
+    margin-left: 15%;
 }
 @mixin sizes ($width, $height) {
     width: $width;
     height: $height;
 }
 .marcas {
-    @include sizes (350px, 150px);
+    @include sizes (25vw, 15vh);
 }
+
 /*ANIMACIONES*/
 .bienvenidos h1 {
     animation-duration: 2s;
