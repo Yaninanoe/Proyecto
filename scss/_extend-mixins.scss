@@ -33,6 +33,11 @@
     width: 25vw;
     height: 15vh;
 }
+@media (min-width:430px) {
+    .marcas img {
+        height: 4vh;
+    }
+}
 @media (min-width:460px) {
     .marcas img {
         height: 5vh;
