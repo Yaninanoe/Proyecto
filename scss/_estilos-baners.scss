@@ -35,20 +35,19 @@ color: white;
 .contacto {
     background-color: antiquewhite;
     color: #250c6c;
-    width: 35%;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bold;
-    margin-left: 40px;
 }
-
+/*TAMAÑO PARA LOS CAMPOS DEL FORMULARIO*/
+.datos {
+    width: 45vh;
+}
 .formulario h3 {
-    text-align: left;
+    text-align: center;
     color: white;
     font-weight: bold;
-    margin-left: 50px;
 }
 .mapa {
     display: flex;
@@ -58,4 +57,8 @@ color: white;
 }
 .accordion {
     width: 90%;
+}
+/*DIRECCION DEL LOCAL EN PAGINA CONTACTO*/
+.direccion {
+font-size: 10px;
 }

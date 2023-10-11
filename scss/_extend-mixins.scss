@@ -18,7 +18,6 @@
 .marcas {
     @include flex;
     gap: 10px;
-    margin-left: 15%;
 }
 @mixin sizes ($width, $height) {
     width: $width;
@@ -26,6 +25,70 @@
 }
 .marcas {
     @include sizes (25vw, 15vh);
+}
+.marcas-productos {
+    max-width: 100%;
+}
+.marcas img {
+    width: 25vw;
+    height: 15vh;
+}
+@media (min-width:460px) {
+    .marcas img {
+        height: 5vh;
+    }
+}
+@media (min-width:500px) {
+    .marcas img {
+        height: 6vh;
+    }
+}
+@media (min-width:600px) {
+    .marcas img {
+        height: 7vh;
+    }
+}
+@media (min-width:700px) {
+    .marcas img {
+        height: 8vh;
+    }
+}
+@media (min-width:800px) {
+    .marcas img {
+        height: 10vh;
+    }
+}
+@media (min-width:900px) {
+    .marcas img {
+        height: 12vh;
+    }
+}
+@media (min-width:1000px) {
+    .marcas img {
+        height: 14vh;
+    }
+}
+@media (min-width:1100px) {
+    .marcas img {
+        height: 15vh;
+    }
+}
+@media (min-width:1200px) {
+    .marcas img {
+        height: 16vh;
+    }
+}
+@media (min-width:1300px) {
+    .marcas img {
+        height: 17vh;
+        margin-left: 10px;
+    }
+}
+@media (min-width:1400px) {
+    .marcas img {
+        height: 18vh;
+        padding-left: 25px;
+    }
 }
 
 /*ANIMACIONES*/
@@ -42,3 +105,4 @@
         opacity: 1;
     }
 }
+

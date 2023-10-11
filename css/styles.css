@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .tel h1 {
   color: white;
   text-align: center;
@@ -21,19 +22,21 @@
 .contacto {
   background-color: antiquewhite;
   color: #250c6c;
-  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: bold;
-  margin-left: 40px;
+}
+
+/*TAMAÑO PARA LOS CAMPOS DEL FORMULARIO*/
+.datos {
+  width: 45vh;
 }
 
 .formulario h3 {
-  text-align: left;
+  text-align: center;
   color: white;
   font-weight: bold;
-  margin-left: 50px;
 }
 
 .mapa {
@@ -45,6 +48,11 @@
 
 .accordion {
   width: 90%;
+}
+
+/*DIRECCION DEL LOCAL EN PAGINA CONTACTO*/
+.direccion {
+  font-size: 10px;
 }
 
 .carousel-item img {
@@ -259,6 +267,10 @@ h2 {
   color: #250c6c;
 }
 
+.navbar-brand {
+  color: #fff;
+}
+
 .caja, .tel, .imagenaccesorios, .electro, .contac {
   background-color: #c0189b;
   background-size: cover;
@@ -276,7 +288,6 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  margin-left: 15%;
 }
 
 .marcas {
@@ -284,6 +295,72 @@ h2 {
   height: 15vh;
 }
 
+.marcas-productos {
+  max-width: 100%;
+}
+
+.marcas img {
+  width: 25vw;
+  height: 15vh;
+}
+
+@media (min-width: 460px) {
+  .marcas img {
+    height: 5vh;
+  }
+}
+@media (min-width: 500px) {
+  .marcas img {
+    height: 6vh;
+  }
+}
+@media (min-width: 600px) {
+  .marcas img {
+    height: 7vh;
+  }
+}
+@media (min-width: 700px) {
+  .marcas img {
+    height: 8vh;
+  }
+}
+@media (min-width: 800px) {
+  .marcas img {
+    height: 10vh;
+  }
+}
+@media (min-width: 900px) {
+  .marcas img {
+    height: 12vh;
+  }
+}
+@media (min-width: 1000px) {
+  .marcas img {
+    height: 14vh;
+  }
+}
+@media (min-width: 1100px) {
+  .marcas img {
+    height: 15vh;
+  }
+}
+@media (min-width: 1200px) {
+  .marcas img {
+    height: 16vh;
+  }
+}
+@media (min-width: 1300px) {
+  .marcas img {
+    height: 17vh;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1400px) {
+  .marcas img {
+    height: 18vh;
+    padding-left: 25px;
+  }
+}
 /*ANIMACIONES*/
 .bienvenidos h1 {
   animation-duration: 2s;
