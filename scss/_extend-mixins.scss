@@ -22,10 +22,10 @@
 .marcas {
     @include flex;
     gap: 10px;
-    @include sizes (15vw, 7vh);
 }
-.marcas-productos {
-    max-width: 100%;
+.marcas img {
+    width: 15vw;
+    height: 11vh;
 }
 
 

@@ -10,6 +10,7 @@
 
 .celulares img {
     width: 300px;
+    height: 250px;
     display: block;
     margin: 0 auto;
     transition: width 1s;
@@ -22,14 +23,14 @@
     &:hover {
         width: 350px;
     }
-
 }
 .celulares p {
     margin: 10px;
 }
 .celulares button{
     padding: 5px;
-    font-weight: bold;
+    border-radius: 10px;
+    font-weight: lighter;
     cursor: pointer;
 }
 
