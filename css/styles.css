@@ -324,11 +324,12 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-left: 10px;
 }
 
 .marcas img {
-  width: 16vw;
-  height: 12vh;
+  width: 13vw;
+  height: 9vh;
 }
 
 /*ANIMACIONES*/
