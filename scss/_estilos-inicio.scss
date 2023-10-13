@@ -77,6 +77,7 @@ section {
 
 footer {
     padding: 20px;
+    margin-top: 20px;
     background-color: #232323;
     color: #c5c0c0;
     text-align: center;
@@ -110,17 +111,18 @@ h2 {
     font-weight: bold;
     font-size: 22px;
 }
-
-.nav-link {
-    color: white;
-}
 .navbar-toggler {
     background-color: #fff;
     color: #250c6c;
 }
-.navbar-brand {
-    color: #fff;
+.nav-link {
+    color: white;
 }
+.navbar-brand {
+    color: white;
+}
+
+
 
 
 

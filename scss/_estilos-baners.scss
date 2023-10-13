@@ -1,10 +1,11 @@
-
+/*CLASE PARA LA PAGINA MOVILES*/
 .tel {
     @extend .caja;
 }
 .tel h1 {
     color: white;
     text-align: center;
+    font-size: x-large;
 }
 
 
@@ -12,9 +13,10 @@
 .imagenaccesorios {
     @extend .caja;
 }
-.imagenaccesorios h2 {
-
-color: white;
+.imagenaccesorios h1 {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .electro {
@@ -23,6 +25,7 @@ color: white;
 .electro h1 {
     color: white;
     font-weight: bold;
+    font-size: x-large;
 }
 
 .contac {
@@ -31,20 +34,26 @@ color: white;
 .contac h1 {
     color: white;
     font-weight: bold;
+    font-size: x-large;
 }
 .contacto {
-    background-color: antiquewhite;
-    color: #250c6c;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-weight: bold;
+    width: 75%;
+    color: blue;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .formulario h3 {
-    text-align: center;
-    color: white;
-    font-weight: bold;
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+}
+.preguntas-frecuentes h3 {
+color: blue;
+font-size: x-large;
+font-weight: bold;
 }
 .mapa {
     display: flex;
@@ -52,8 +61,21 @@ color: white;
     margin-left: 30px;
     margin-bottom: 10vh;
 }
+/*CLASE PARA PREGUNTAS FRECUENTES EN SECTION CONTACTOS*/
+
 .accordion {
-    width: 90%;
+    width: 75%;
+}
+.accordion-button {
+    color: blue;
+}
+.accordion-button:hover {
+    background-color: blue;
+    color: white;
+}
+.pagina-youtube h3 {
+color: blue;
+font-size: x-large;
 }
 /*DIRECCION DEL LOCAL EN PAGINA CONTACTO*/
 .direccion {

@@ -1,35 +1,47 @@
+/*CLASE PARA LA PAGINA MOVILES*/
 .tel h1 {
   color: white;
   text-align: center;
+  font-size: x-large;
 }
 
 /*EXTEND EN BANERS*/
-.imagenaccesorios h2 {
+.imagenaccesorios h1 {
   color: white;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .electro h1 {
   color: white;
   font-weight: bold;
+  font-size: x-large;
 }
 
 .contac h1 {
   color: white;
   font-weight: bold;
+  font-size: x-large;
 }
 
 .contacto {
-  background-color: antiquewhite;
-  color: #250c6c;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-weight: bold;
+  width: 75%;
+  color: blue;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .formulario h3 {
-  text-align: center;
-  color: white;
+  color: blue;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.preguntas-frecuentes h3 {
+  color: blue;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -40,8 +52,23 @@
   margin-bottom: 10vh;
 }
 
+/*CLASE PARA PREGUNTAS FRECUENTES EN SECTION CONTACTOS*/
 .accordion {
-  width: 90%;
+  width: 75%;
+}
+
+.accordion-button {
+  color: blue;
+}
+
+.accordion-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.pagina-youtube h3 {
+  color: blue;
+  font-size: x-large;
 }
 
 /*DIRECCION DEL LOCAL EN PAGINA CONTACTO*/
@@ -89,6 +116,13 @@
   width: 35px;
 }
 
+.youtube {
+  width: 15vh;
+  margin: end;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .celulares {
   background-color: antiquewhite;
   width: 350px;
@@ -122,10 +156,15 @@
 }
 
 .celulares button {
-  padding: 5px;
+  padding: 4px;
   border-radius: 10px;
   font-weight: lighter;
   cursor: pointer;
+}
+
+.celulares button:hover {
+  background-color: green;
+  border: none;
 }
 
 .padre-fotos {
@@ -219,6 +258,7 @@ section {
 
 footer {
   padding: 20px;
+  margin-top: 20px;
   background-color: #232323;
   color: #c5c0c0;
   text-align: center;
@@ -254,17 +294,17 @@ h2 {
   font-size: 22px;
 }
 
-.nav-link {
-  color: white;
-}
-
 .navbar-toggler {
   background-color: #fff;
   color: #250c6c;
 }
 
+.nav-link {
+  color: white;
+}
+
 .navbar-brand {
-  color: #fff;
+  color: white;
 }
 
 .caja, .tel, .imagenaccesorios, .electro, .contac {
@@ -287,8 +327,8 @@ h2 {
 }
 
 .marcas img {
-  width: 15vw;
-  height: 11vh;
+  width: 16vw;
+  height: 12vh;
 }
 
 /*ANIMACIONES*/

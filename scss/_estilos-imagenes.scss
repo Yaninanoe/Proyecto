@@ -28,10 +28,14 @@
     margin: 10px;
 }
 .celulares button{
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
     font-weight: lighter;
     cursor: pointer;
+}
+.celulares button:hover {
+    background-color: green;
+    border: none;
 }
 
 
