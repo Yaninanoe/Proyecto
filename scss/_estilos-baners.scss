@@ -27,7 +27,7 @@
     font-weight: bold;
     font-size: x-large;
 }
-
+/*Elimine el formulario contacto queda sin validez estos estilos*/
 .contac {
     @extend .caja;
 }
@@ -39,10 +39,14 @@
 .contacto {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 60%;
     color: blue;
     justify-content: center;
     margin-top: 30px;
+}
+.value {
+    width: 200px;
+    text-align: center;
 }
 
 .formulario h3 {
@@ -64,7 +68,7 @@ font-weight: bold;
 /*CLASE PARA PREGUNTAS FRECUENTES EN SECTION CONTACTOS*/
 
 .accordion {
-    width: 75%;
+    width: 60%;
 }
 .accordion-button {
     color: blue;

@@ -18,6 +18,7 @@
   font-size: x-large;
 }
 
+/*Elimine el formulario contacto queda sin validez estos estilos*/
 .contac h1 {
   color: white;
   font-weight: bold;
@@ -27,10 +28,15 @@
 .contacto {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 60%;
   color: blue;
   justify-content: center;
   margin-top: 30px;
+}
+
+.value {
+  width: 200px;
+  text-align: center;
 }
 
 .formulario h3 {
@@ -54,7 +60,7 @@
 
 /*CLASE PARA PREGUNTAS FRECUENTES EN SECTION CONTACTOS*/
 .accordion {
-  width: 75%;
+  width: 60%;
 }
 
 .accordion-button {
@@ -220,10 +226,6 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 header img {
@@ -297,16 +299,38 @@ h2 {
 .navbar-toggler {
   background-color: #fff;
   color: #250c6c;
+  margin-left: 30%;
 }
 
-.nav-link {
-  color: white;
+.navbar-nav a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+  text-decoration: none;
 }
 
-.navbar-brand {
-  color: white;
+.navbar-nav .nav-link.active {
+  color: #fff;
 }
 
+@media (min-width: 990px) {
+  .collapse {
+    justify-content: flex-end;
+  }
+}
+.carrito {
+  margin-left: 20px;
+}
+
+/*No funciona*/
+@media (min-width: 460px) {
+  .carrito {
+    flex-direction: row;
+    justify-content: end;
+  }
+}
 .caja, .tel, .imagenaccesorios, .electro, .contac {
   background-color: #c0189b;
   background-size: cover;

@@ -32,11 +32,6 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    
 }
 header img {
     width: 140px;
@@ -114,13 +109,35 @@ h2 {
 .navbar-toggler {
     background-color: #fff;
     color: #250c6c;
+    margin-left: 30%;
 }
-.nav-link {
-    color: white;
+.navbar-nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    text-decoration: none;
 }
-.navbar-brand {
-    color: white;
+.navbar-nav .nav-link.active {
+    color: #fff;
 }
+@media (min-width: 990px) {
+    .collapse {
+        justify-content: flex-end;
+    }
+}
+.carrito {
+    margin-left: 20px;
+}
+/*No funciona*/
+@media (min-width:460px){
+    .carrito {
+        flex-direction: row;
+        justify-content: end;
+    }
+}
+
 
 
 
