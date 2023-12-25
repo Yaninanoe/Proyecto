@@ -236,7 +236,7 @@ header {
 }
 
 header img {
-  width: 250px;
+  width: 300px;
 }
 
 .enlaces {
@@ -320,7 +320,6 @@ h2 {
 .navbar-toggler {
   background-color: #fff;
   color: #250c6c;
-  margin-left: 30%;
 }
 
 .navbar-nav a {
