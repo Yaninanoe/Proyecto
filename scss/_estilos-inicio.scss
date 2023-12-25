@@ -26,7 +26,7 @@ body {
     background-color: #c5c0c0;
 }
 header {
-    background-color: #250c6c;
+    background-color: #4927a0;
     color: white;
     padding: 10px 0 ;
     position: sticky;
@@ -34,8 +34,9 @@ header {
     z-index: 1;
 }
 header img {
-    width: 140px;
-    border-radius: 30px;
+    width: 250px;
+    
+    
 }
 
 .enlaces {
@@ -60,7 +61,20 @@ section {
 
 .carrito {
     cursor: pointer;
+margin-right: 10px;
 }
+.car-compras{
+    background-color: #232323;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+justify-content: end;
+height: 45px;
+}
+.car-compras h2 {
+    font-size: small;
+}
+
 
 footer {
     padding: 20px;
@@ -72,7 +86,8 @@ footer {
 
 /*CSS BOOTSTRAP MENU */
 .bienvenidos {
-    background-image: url(../img/bienvenida-imagen.jpg);
+    /*background-image: url(../img/bienvenida-imagen.jpg);*/
+    background-color: #938dcd;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -94,7 +109,7 @@ h2 {
 }
 
 .navbar {
-    background-color: #250c6c;
+    background-color: #4927a0;
     font-weight: bold;
     font-size: 22px;
 }
